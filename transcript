@@ -1,0 +1,204 @@
+# vsim Alu_tb -c -do "run -all" 
+# Start time: 01:40:39 on May 12,2024
+# Loading work.Alu_tb
+# Loading work.Alu
+# Loading work.add_sub
+# Loading work.mul
+# Loading work.rem
+# run -all
+# A =111 , B =111, A+B= result=10110, signed flag=1, zero flag=0
+# A =111 , B =111, A-B= result=00000, signed flag=0, zero flag=1
+# A =111 , B =111, A*B= result=01001, signed flag=0, zero flag=0
+# A =111 , B =111, A%B= result=10000, signed flag=1, zero flag=1, div_by_zero flag=0
+# A =111 , B =110, A+B= result=10101, signed flag=1, zero flag=0
+# A =111 , B =110, A-B= result=10001, signed flag=1, zero flag=0
+# A =111 , B =110, A*B= result=00110, signed flag=0, zero flag=0
+# A =111 , B =110, A%B= result=10001, signed flag=1, zero flag=0, div_by_zero flag=0
+# A =111 , B =101, A+B= result=10100, signed flag=1, zero flag=0
+# A =111 , B =101, A-B= result=10010, signed flag=1, zero flag=0
+# A =111 , B =101, A*B= result=00011, signed flag=0, zero flag=0
+# A =111 , B =101, A%B= result=10000, signed flag=1, zero flag=1, div_by_zero flag=0
+# A =111 , B =000, A+B= result=10011, signed flag=1, zero flag=0
+# A =111 , B =000, A-B= result=10011, signed flag=1, zero flag=0
+# A =111 , B =000, A*B= result=10000, signed flag=1, zero flag=1
+# A =111 , B =000, A%B= result=10000, signed flag=1, zero flag=1, div_by_zero flag=1
+# A =111 , B =001, A+B= result=10010, signed flag=1, zero flag=0
+# A =111 , B =001, A-B= result=10100, signed flag=1, zero flag=0
+# A =111 , B =001, A*B= result=10011, signed flag=1, zero flag=0
+# A =111 , B =001, A%B= result=10000, signed flag=1, zero flag=1, div_by_zero flag=0
+# A =111 , B =010, A+B= result=10001, signed flag=1, zero flag=0
+# A =111 , B =010, A-B= result=10101, signed flag=1, zero flag=0
+# A =111 , B =010, A*B= result=10110, signed flag=1, zero flag=0
+# A =111 , B =010, A%B= result=10001, signed flag=1, zero flag=0, div_by_zero flag=0
+# A =111 , B =011, A+B= result=00000, signed flag=0, zero flag=1
+# A =111 , B =011, A-B= result=10110, signed flag=1, zero flag=0
+# A =111 , B =011, A*B= result=11001, signed flag=1, zero flag=0
+# A =111 , B =011, A%B= result=10000, signed flag=1, zero flag=1, div_by_zero flag=0
+# A =110 , B =111, A+B= result=10101, signed flag=1, zero flag=0
+# A =110 , B =111, A-B= result=10001, signed flag=1, zero flag=0
+# A =110 , B =111, A*B= result=00110, signed flag=0, zero flag=0
+# A =110 , B =111, A%B= result=10010, signed flag=1, zero flag=0, div_by_zero flag=0
+# A =110 , B =110, A+B= result=10100, signed flag=1, zero flag=0
+# A =110 , B =110, A-B= result=00000, signed flag=0, zero flag=1
+# A =110 , B =110, A*B= result=00100, signed flag=0, zero flag=0
+# A =110 , B =110, A%B= result=10000, signed flag=1, zero flag=1, div_by_zero flag=0
+# A =110 , B =101, A+B= result=10011, signed flag=1, zero flag=0
+# A =110 , B =101, A-B= result=10001, signed flag=1, zero flag=0
+# A =110 , B =101, A*B= result=00010, signed flag=0, zero flag=0
+# A =110 , B =101, A%B= result=10000, signed flag=1, zero flag=1, div_by_zero flag=0
+# A =110 , B =000, A+B= result=10010, signed flag=1, zero flag=0
+# A =110 , B =000, A-B= result=10010, signed flag=1, zero flag=0
+# A =110 , B =000, A*B= result=10000, signed flag=1, zero flag=1
+# A =110 , B =000, A%B= result=10000, signed flag=1, zero flag=1, div_by_zero flag=1
+# A =110 , B =001, A+B= result=10001, signed flag=1, zero flag=0
+# A =110 , B =001, A-B= result=10011, signed flag=1, zero flag=0
+# A =110 , B =001, A*B= result=10010, signed flag=1, zero flag=0
+# A =110 , B =001, A%B= result=10000, signed flag=1, zero flag=1, div_by_zero flag=0
+# A =110 , B =010, A+B= result=00000, signed flag=0, zero flag=1
+# A =110 , B =010, A-B= result=10100, signed flag=1, zero flag=0
+# A =110 , B =010, A*B= result=10100, signed flag=1, zero flag=0
+# A =110 , B =010, A%B= result=10000, signed flag=1, zero flag=1, div_by_zero flag=0
+# A =110 , B =011, A+B= result=00001, signed flag=0, zero flag=0
+# A =110 , B =011, A-B= result=10101, signed flag=1, zero flag=0
+# A =110 , B =011, A*B= result=10110, signed flag=1, zero flag=0
+# A =110 , B =011, A%B= result=10010, signed flag=1, zero flag=0, div_by_zero flag=0
+# A =101 , B =111, A+B= result=10100, signed flag=1, zero flag=0
+# A =101 , B =111, A-B= result=10010, signed flag=1, zero flag=0
+# A =101 , B =111, A*B= result=00011, signed flag=0, zero flag=0
+# A =101 , B =111, A%B= result=10001, signed flag=1, zero flag=0, div_by_zero flag=0
+# A =101 , B =110, A+B= result=10011, signed flag=1, zero flag=0
+# A =101 , B =110, A-B= result=10001, signed flag=1, zero flag=0
+# A =101 , B =110, A*B= result=00010, signed flag=0, zero flag=0
+# A =101 , B =110, A%B= result=10001, signed flag=1, zero flag=0, div_by_zero flag=0
+# A =101 , B =101, A+B= result=10010, signed flag=1, zero flag=0
+# A =101 , B =101, A-B= result=00000, signed flag=0, zero flag=1
+# A =101 , B =101, A*B= result=00001, signed flag=0, zero flag=0
+# A =101 , B =101, A%B= result=10000, signed flag=1, zero flag=1, div_by_zero flag=0
+# A =101 , B =000, A+B= result=10001, signed flag=1, zero flag=0
+# A =101 , B =000, A-B= result=10001, signed flag=1, zero flag=0
+# A =101 , B =000, A*B= result=10000, signed flag=1, zero flag=1
+# A =101 , B =000, A%B= result=10000, signed flag=1, zero flag=1, div_by_zero flag=1
+# A =101 , B =001, A+B= result=00000, signed flag=0, zero flag=1
+# A =101 , B =001, A-B= result=10010, signed flag=1, zero flag=0
+# A =101 , B =001, A*B= result=10001, signed flag=1, zero flag=0
+# A =101 , B =001, A%B= result=10000, signed flag=1, zero flag=1, div_by_zero flag=0
+# A =101 , B =010, A+B= result=00001, signed flag=0, zero flag=0
+# A =101 , B =010, A-B= result=10011, signed flag=1, zero flag=0
+# A =101 , B =010, A*B= result=10010, signed flag=1, zero flag=0
+# A =101 , B =010, A%B= result=10001, signed flag=1, zero flag=0, div_by_zero flag=0
+# A =101 , B =011, A+B= result=00010, signed flag=0, zero flag=0
+# A =101 , B =011, A-B= result=10100, signed flag=1, zero flag=0
+# A =101 , B =011, A*B= result=10011, signed flag=1, zero flag=0
+# A =101 , B =011, A%B= result=10001, signed flag=1, zero flag=0, div_by_zero flag=0
+# A =000 , B =111, A+B= result=10011, signed flag=1, zero flag=0
+# A =000 , B =111, A-B= result=00011, signed flag=0, zero flag=0
+# A =000 , B =111, A*B= result=10000, signed flag=1, zero flag=1
+# A =000 , B =111, A%B= result=00000, signed flag=0, zero flag=1, div_by_zero flag=0
+# A =000 , B =110, A+B= result=10010, signed flag=1, zero flag=0
+# A =000 , B =110, A-B= result=00010, signed flag=0, zero flag=0
+# A =000 , B =110, A*B= result=10000, signed flag=1, zero flag=1
+# A =000 , B =110, A%B= result=00000, signed flag=0, zero flag=1, div_by_zero flag=0
+# A =000 , B =101, A+B= result=10001, signed flag=1, zero flag=0
+# A =000 , B =101, A-B= result=00001, signed flag=0, zero flag=0
+# A =000 , B =101, A*B= result=10000, signed flag=1, zero flag=1
+# A =000 , B =101, A%B= result=00000, signed flag=0, zero flag=1, div_by_zero flag=0
+# A =000 , B =000, A+B= result=00000, signed flag=0, zero flag=1
+# A =000 , B =000, A-B= result=00000, signed flag=0, zero flag=1
+# A =000 , B =000, A*B= result=00000, signed flag=0, zero flag=1
+# A =000 , B =000, A%B= result=00000, signed flag=0, zero flag=1, div_by_zero flag=1
+# A =000 , B =001, A+B= result=00001, signed flag=0, zero flag=0
+# A =000 , B =001, A-B= result=10001, signed flag=1, zero flag=0
+# A =000 , B =001, A*B= result=00000, signed flag=0, zero flag=1
+# A =000 , B =001, A%B= result=00000, signed flag=0, zero flag=1, div_by_zero flag=0
+# A =000 , B =010, A+B= result=00010, signed flag=0, zero flag=0
+# A =000 , B =010, A-B= result=10010, signed flag=1, zero flag=0
+# A =000 , B =010, A*B= result=00000, signed flag=0, zero flag=1
+# A =000 , B =010, A%B= result=00000, signed flag=0, zero flag=1, div_by_zero flag=0
+# A =000 , B =011, A+B= result=00011, signed flag=0, zero flag=0
+# A =000 , B =011, A-B= result=10011, signed flag=1, zero flag=0
+# A =000 , B =011, A*B= result=00000, signed flag=0, zero flag=1
+# A =000 , B =011, A%B= result=00000, signed flag=0, zero flag=1, div_by_zero flag=0
+# A =001 , B =111, A+B= result=10010, signed flag=1, zero flag=0
+# A =001 , B =111, A-B= result=00100, signed flag=0, zero flag=0
+# A =001 , B =111, A*B= result=10011, signed flag=1, zero flag=0
+# A =001 , B =111, A%B= result=00001, signed flag=0, zero flag=0, div_by_zero flag=0
+# A =001 , B =110, A+B= result=10001, signed flag=1, zero flag=0
+# A =001 , B =110, A-B= result=00011, signed flag=0, zero flag=0
+# A =001 , B =110, A*B= result=10010, signed flag=1, zero flag=0
+# A =001 , B =110, A%B= result=00001, signed flag=0, zero flag=0, div_by_zero flag=0
+# A =001 , B =101, A+B= result=00000, signed flag=0, zero flag=1
+# A =001 , B =101, A-B= result=00010, signed flag=0, zero flag=0
+# A =001 , B =101, A*B= result=10001, signed flag=1, zero flag=0
+# A =001 , B =101, A%B= result=00000, signed flag=0, zero flag=1, div_by_zero flag=0
+# A =001 , B =000, A+B= result=00001, signed flag=0, zero flag=0
+# A =001 , B =000, A-B= result=10001, signed flag=1, zero flag=0
+# A =001 , B =000, A*B= result=00000, signed flag=0, zero flag=1
+# A =001 , B =000, A%B= result=00000, signed flag=0, zero flag=1, div_by_zero flag=1
+# A =001 , B =001, A+B= result=00010, signed flag=0, zero flag=0
+# A =001 , B =001, A-B= result=00000, signed flag=0, zero flag=1
+# A =001 , B =001, A*B= result=00001, signed flag=0, zero flag=0
+# A =001 , B =001, A%B= result=00000, signed flag=0, zero flag=1, div_by_zero flag=0
+# A =001 , B =010, A+B= result=00011, signed flag=0, zero flag=0
+# A =001 , B =010, A-B= result=10001, signed flag=1, zero flag=0
+# A =001 , B =010, A*B= result=00010, signed flag=0, zero flag=0
+# A =001 , B =010, A%B= result=00001, signed flag=0, zero flag=0, div_by_zero flag=0
+# A =001 , B =011, A+B= result=00100, signed flag=0, zero flag=0
+# A =001 , B =011, A-B= result=10010, signed flag=1, zero flag=0
+# A =001 , B =011, A*B= result=00011, signed flag=0, zero flag=0
+# A =001 , B =011, A%B= result=00001, signed flag=0, zero flag=0, div_by_zero flag=0
+# A =010 , B =111, A+B= result=10001, signed flag=1, zero flag=0
+# A =010 , B =111, A-B= result=00101, signed flag=0, zero flag=0
+# A =010 , B =111, A*B= result=10110, signed flag=1, zero flag=0
+# A =010 , B =111, A%B= result=00010, signed flag=0, zero flag=0, div_by_zero flag=0
+# A =010 , B =110, A+B= result=00000, signed flag=0, zero flag=1
+# A =010 , B =110, A-B= result=00100, signed flag=0, zero flag=0
+# A =010 , B =110, A*B= result=10100, signed flag=1, zero flag=0
+# A =010 , B =110, A%B= result=00000, signed flag=0, zero flag=1, div_by_zero flag=0
+# A =010 , B =101, A+B= result=00001, signed flag=0, zero flag=0
+# A =010 , B =101, A-B= result=00011, signed flag=0, zero flag=0
+# A =010 , B =101, A*B= result=10010, signed flag=1, zero flag=0
+# A =010 , B =101, A%B= result=00000, signed flag=0, zero flag=1, div_by_zero flag=0
+# A =010 , B =000, A+B= result=00010, signed flag=0, zero flag=0
+# A =010 , B =000, A-B= result=10010, signed flag=1, zero flag=0
+# A =010 , B =000, A*B= result=00000, signed flag=0, zero flag=1
+# A =010 , B =000, A%B= result=00000, signed flag=0, zero flag=1, div_by_zero flag=1
+# A =010 , B =001, A+B= result=00011, signed flag=0, zero flag=0
+# A =010 , B =001, A-B= result=10001, signed flag=1, zero flag=0
+# A =010 , B =001, A*B= result=00010, signed flag=0, zero flag=0
+# A =010 , B =001, A%B= result=00000, signed flag=0, zero flag=1, div_by_zero flag=0
+# A =010 , B =010, A+B= result=00100, signed flag=0, zero flag=0
+# A =010 , B =010, A-B= result=00000, signed flag=0, zero flag=1
+# A =010 , B =010, A*B= result=00100, signed flag=0, zero flag=0
+# A =010 , B =010, A%B= result=00000, signed flag=0, zero flag=1, div_by_zero flag=0
+# A =010 , B =011, A+B= result=00101, signed flag=0, zero flag=0
+# A =010 , B =011, A-B= result=10001, signed flag=1, zero flag=0
+# A =010 , B =011, A*B= result=00110, signed flag=0, zero flag=0
+# A =010 , B =011, A%B= result=00010, signed flag=0, zero flag=0, div_by_zero flag=0
+# A =011 , B =111, A+B= result=00000, signed flag=0, zero flag=1
+# A =011 , B =111, A-B= result=00110, signed flag=0, zero flag=0
+# A =011 , B =111, A*B= result=11001, signed flag=1, zero flag=0
+# A =011 , B =111, A%B= result=00000, signed flag=0, zero flag=1, div_by_zero flag=0
+# A =011 , B =110, A+B= result=00001, signed flag=0, zero flag=0
+# A =011 , B =110, A-B= result=00101, signed flag=0, zero flag=0
+# A =011 , B =110, A*B= result=10110, signed flag=1, zero flag=0
+# A =011 , B =110, A%B= result=00001, signed flag=0, zero flag=0, div_by_zero flag=0
+# A =011 , B =101, A+B= result=00010, signed flag=0, zero flag=0
+# A =011 , B =101, A-B= result=00100, signed flag=0, zero flag=0
+# A =011 , B =101, A*B= result=10011, signed flag=1, zero flag=0
+# A =011 , B =101, A%B= result=00000, signed flag=0, zero flag=1, div_by_zero flag=0
+# A =011 , B =000, A+B= result=00011, signed flag=0, zero flag=0
+# A =011 , B =000, A-B= result=10011, signed flag=1, zero flag=0
+# A =011 , B =000, A*B= result=00000, signed flag=0, zero flag=1
+# A =011 , B =000, A%B= result=00000, signed flag=0, zero flag=1, div_by_zero flag=1
+# A =011 , B =001, A+B= result=00100, signed flag=0, zero flag=0
+# A =011 , B =001, A-B= result=10010, signed flag=1, zero flag=0
+# A =011 , B =001, A*B= result=00011, signed flag=0, zero flag=0
+# A =011 , B =001, A%B= result=00000, signed flag=0, zero flag=1, div_by_zero flag=0
+# A =011 , B =010, A+B= result=00101, signed flag=0, zero flag=0
+# A =011 , B =010, A-B= result=10001, signed flag=1, zero flag=0
+# A =011 , B =010, A*B= result=00110, signed flag=0, zero flag=0
+# A =011 , B =010, A%B= result=00001, signed flag=0, zero flag=0, div_by_zero flag=0
+# A =011 , B =011, A+B= result=00110, signed flag=0, zero flag=0
+# A =011 , B =011, A-B= result=00000, signed flag=0, zero flag=1
+# A =011 , B =011, A*B= result=01001, signed flag=0, zero flag=0
+# A =011 , B =011, A%B= result=00000, signed flag=0, zero flag=1, div_by_zero flag=0

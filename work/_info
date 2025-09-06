@@ -1,0 +1,189 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/ahmed/OneDrive/Desktop/Logic Project Final Final
+vadd_sub
+Z1 !s110 1715467236
+!i10b 1
+!s100 I]AXfzJRba0<^Q2>[>4153
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IUbW6k9Bm765_5I[4K55GW2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1715466997
+8add_sub.v
+Fadd_sub.v
+!i122 5
+L0 13 71
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1715467236.000000
+!s107 rem_tb.v|rem.v|mul_tb.v|mul.v|Alu_tb.v|Alu.v|add_sub_tb.v|add_sub.v|
+Z7 !s90 add_sub.v|add_sub_tb.v|Alu.v|Alu_tb.v|mul.v|mul_tb.v|rem.v|rem_tb.v|
+!i113 1
+Z8 tCvgOpt 0
+vadd_sub_tb
+R1
+!i10b 1
+!s100 JVf2<1]CCg;7<AADA2M]I0
+R2
+I;Njg9N6X_;:5`Q^^8Mc7:3
+R3
+R0
+R4
+8add_sub_tb.v
+Fadd_sub_tb.v
+!i122 5
+L0 9 131
+R5
+r1
+!s85 0
+31
+R6
+Z9 !s107 rem_tb.v|rem.v|mul_tb.v|mul.v|Alu_tb.v|Alu.v|add_sub_tb.v|add_sub.v|
+R7
+!i113 1
+R8
+vAlu
+R1
+!i10b 1
+!s100 0^U4o5W?;k]ijomJa7[PK0
+R2
+I?1eTCm0eDa_o2LYR[VKQ[0
+R3
+R0
+R4
+8Alu.v
+FAlu.v
+!i122 5
+L0 1 86
+R5
+r1
+!s85 0
+31
+R6
+R9
+R7
+!i113 1
+R8
+n@alu
+vAlu_tb
+R1
+!i10b 1
+!s100 >GNU_?P8L;jfbENn<iA0i1
+R2
+IS@cW2W<]oGdGQ3Ym@eI8k1
+R3
+R0
+R4
+8Alu_tb.v
+FAlu_tb.v
+!i122 5
+L0 9 92
+R5
+r1
+!s85 0
+31
+R6
+R9
+R7
+!i113 1
+R8
+n@alu_tb
+vmul
+R1
+!i10b 1
+!s100 0fjM`2=M]b1^UXRg]1NO71
+R2
+IeTOmTdV;]]:TC9@^gmQb`3
+R3
+R0
+R4
+8mul.v
+Fmul.v
+!i122 5
+L0 1 29
+R5
+r1
+!s85 0
+31
+R6
+R9
+R7
+!i113 1
+R8
+vmul_tb
+R1
+!i10b 1
+!s100 RU=aloWQl45FfMg>o:nS=2
+R2
+Ih2XKY7=6D8RCCT9JYf8RL3
+R3
+R0
+R4
+8mul_tb.v
+Fmul_tb.v
+!i122 5
+L0 1 153
+R5
+r1
+!s85 0
+31
+R6
+R9
+R7
+!i113 1
+R8
+vrem
+R1
+!i10b 1
+!s100 ]RRJJ:JQbK8S^O<JTR;=S1
+R2
+IFYka]jkdDO29U5NiI^XS01
+R3
+R0
+R4
+8rem.v
+Frem.v
+!i122 5
+L0 1 18
+R5
+r1
+!s85 0
+31
+R6
+R9
+R7
+!i113 1
+R8
+vrem_tb
+R1
+!i10b 1
+!s100 miY^0gl;]F7gSOkkCGYR20
+R2
+Iz:HCz?h[6X@eY8`Q^iWNP1
+R3
+R0
+R4
+8rem_tb.v
+Frem_tb.v
+!i122 5
+L0 1 79
+R5
+r1
+!s85 0
+31
+R6
+R9
+R7
+!i113 1
+R8
